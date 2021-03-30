@@ -10,30 +10,7 @@ class UserProfile extends React.Component {
         super(props);
         this.state = {
             name: "pritesh kulshreshtha",
-            userStocks: {
-                // 'amzn': {
-                //     'symbol': 'AMZN',
-                //     'company': 'AMAZON',
-                //     'x': []
-                // },
-                'ibm': {
-                    'symbol': 'IBM',
-                    'company': 'IBM',
-                    'x': []
-                },
-                'fb': {
-                    'symbol': 'FB',
-                    'company': 'FACEBOOK',
-                    'x': [],
-                   
-                },
-                'aapl': {
-                    'symbol': 'AAPL',
-                    'company': 'APPLE',
-                    'x': []
-                    
-                }
-            },
+            userStocks: {},
             triggerPopUp: false,
             popUpStock: null,
             percentProfit: +75.125,
